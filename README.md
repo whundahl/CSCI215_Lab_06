@@ -1,4 +1,7 @@
 # CSCI215_Lab_06
+
+## William Hundahl
+
 Styling and validating a form
 
 This will be a two-part lab. Part 1 will consist of creating a form in HTML and style in CSS. This will emphasize skill that were learned in CSCI-115 but will also improve on design elements that are crucial in Website Programming. Part 2 will incorporate the JavaScript language to be used for form validation. Fork and Clone this repository. Initial files have been provided.
