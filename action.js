@@ -35,17 +35,17 @@ function checkAge() {
 
 
 function validate() {
-    val = checkEmail(document.getElementById("email").value);
-    val2=checkName();
-    val3= checkAge();
-    console.log(val,val2,val3);
+    var valid = checkEmail(document.getElementById("email").value);
+    var valid_2=checkName();
+    var valid_3= checkAge();
+    console.log(valid,valid_2,valid_3);
 
-    if(val == false){
+    if(valid == false){
         alert("Invalid Email, Please Try Again");
         document.getElementById('email').style.backgroundColor = "rgb(255, 0, 0)";
     }
 
-    else if( val2 == false || val3 == false){
+    else if(valid_2 == false || valid_3 == false){
         alert("Either your Name or Age is Invalid")
     }
 
